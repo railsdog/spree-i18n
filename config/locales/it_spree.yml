@@ -122,7 +122,7 @@ it:
         depth: Profondità
         height: Taglia
         price: Prezzo
-        sku: SKU
+        sku: Cod.
         weight: Peso
         width: Larghezza
       zone:
@@ -184,8 +184,8 @@ it:
         one: "Consegna Categoria"
         other: "Consegna Categorie"
       state:
-        one: Regione
-        other: Regioni
+        one: Provincia
+        other: Provincie
       tax_category:
         one: "Categoria delle tasse"
         other: "Categorie delle tasse"
@@ -216,7 +216,7 @@ it:
   add_product: "Aggiungi Prodotto"
   add_product_properties: ""
   add_scope: "Aggiungere un campo di applicazione"
-  add_state: "Aggiungi Regione"
+  add_state: "Aggiungi Provincia"
   add_to_cart: "Aggiungi al Carrello"
   add_zone: "Aggiungi una zona"
   additional_item: Costo oggetto aggiuntivo
@@ -228,10 +228,10 @@ it:
   all: "Tutti"
   all_departments: Tutti i reparti
   allow_backorders: "Lasciare fuori stock"
-  allow_ssl_to_be_used_when_in_developement_and_test_modes: Consentire l'uso di SSL durante le modalità di sviluppo e test
-  allow_ssl_to_be_used_when_in_production_mode: Consentire l'uso di SSL durante la modalità di Produzione
+  allow_ssl_to_be_used_when_in_developement_and_test_modes: "Consentire l'uso di SSL durante le modalità di sviluppo e test"
+  allow_ssl_to_be_used_when_in_production_mode: "Consentire l'uso di SSL durante la modalità di Produzione"
   allowed_ssl_in_production_mode: "SSL può {{not}} essere utilizzato in produzione"
-  already_registered: Sei già iscritto?
+  already_registered: "Sei già iscritto?"
   alt_text: Testo Alternativo
   alternative_phone: Telefono Alternativo
   amount: Totale
@@ -315,6 +315,10 @@ it:
   count_of_reduced_by: "completa per '{{name}}' riduci per {{count}}"
   country: Paese
   country_based: "sulla base di un paese"
+  coupon: Promozione
+  coupon_code: Codice promozione
+  coupons: Promozioni
+  coupons_description: crea una promozione
   create: Inserire
   create_a_new_account: "Create un nuovo account"
   create_product_group_from_products: "Crea un nuovo gruppo di prodotti"
@@ -370,6 +374,7 @@ it:
   enable_login_via_login_password: "abilita email/password"
   enable_login_via_openid: "usa l'istanza OpenID "
   enable_mail_delivery: "abilita l'email di Consegna"
+  enable_mail_queue: "abilita la coda dei messaggi di posta elettronica"
   enter_exactly_as_shown_on_card: "Si prega di inserire esattamente come visualizzato sulla carta"
   enter_password_to_confirm: "(Abbiamo bisogno della password corrente per confermare il cambio)"
   environment: "Condizioni"
@@ -470,6 +475,8 @@ it:
   maestro_or_solo_cards: "Solo carte Maestro"
   mail_delivery_enabled: "Il recapito di posta elettronica è stato attivato"
   mail_delivery_not_enabled: "Connetti come cliente esistenti"
+  mail_queue_enabled: "La coda della posta è attiva"
+  mail_queue_not_enabled: "La coda della posta non è attiva (le e-mail vengono consegnati immediatamente) "
   mail_server_preferences: "Preferenze del Mail Server"
   mail_server_settings: "Configurazione del Mail Server"
   make_refund: "Effettua un rimborso"
@@ -484,7 +491,7 @@ it:
   my_account: "Il mio conto"
   my_orders: "I miei Ordini"
   name: "Nome"
-  name_or_sku: "Nome or SKU"
+  name_or_sku: "Nome o Cod."
   new: "Nuovo"
   new_adjustment: "Nuovo cambiamento"
   new_billing_integration: "Nuova integrazione alla fatturazione"
@@ -505,7 +512,7 @@ it:
   new_shipment: "Nuova spedizione"
   new_shipping_category: "Nuova Categoria di acquisto"
   new_shipping_method: "Nuovo Metodo di acquisto"
-  new_state: "Nuova Regione"
+  new_state: "Nuova Provincia"
   new_tax_category: "Nuovo categoria di tassazione"
   new_tax_rate: "Nuova tassazione"
   new_taxon: "Nuovo Tassonomia"
@@ -625,7 +632,7 @@ it:
         name: Valore
     scopes:
       ascend_by_master_price:
-        name: con l'aumento dei prezzi
+        name: "con l'aumento dei prezzi"
       ascend_by_name:
         name: Per nome in ordine crescente
       ascend_by_updated_at:
@@ -635,7 +642,7 @@ it:
       descend_by_name:
         name: Discendente per il nome dei prodotti
       descend_by_popularity:
-        name: Ordina per popolarità (più conosciuti prima)
+        name: "Ordina per popolarità (più conosciuti prima)"
       descend_by_updated_at:
         name: Discendente per la data di sconto
       in_name:
@@ -762,8 +769,8 @@ it:
   resume: "riprendi"
   resumed: Ripreso
   return: restituisci
-  return_authorization: restituisci l'autorizzazione
-  return_authorization_updated: restituisci l'autorizzazione aggiorata
+  return_authorization: "restituisci l'autorizzazione"
+  return_authorization_updated: "restituisci l'autorizzazione aggiorata"
   return_authorizations: restituisci le autorizzazioni
   return_quantity: restituisci la Quantità
   returned: restituito
@@ -815,6 +822,8 @@ it:
   shipping_method: Metodo di spedizione
   shipping_methods: "Metodi di spedizione"
   shipping_methods_description: "Descrizione metodo di spedizione"
+  shipping_rates: "costi di spedizione"
+  shipping_rates_description: "Gestire i costi di spedizione"
   shipping_total: "Totale costi di consegna"
   shop_by_taxonomy: "Ordina per {{taxonomy}}"
   shopping_cart: Carrello
@@ -824,12 +833,12 @@ it:
   show_incomplete_orders: "Guarda gli Ordini Incompleti"
   show_only_complete_orders: "Filtra gli ordini completati"
   show_out_of_stock_products: "Guarda i prodotti terminati"
-  show_price_inc_vat: "Visualizza il price IVA inclusa"
+  show_price_inc_vat: "Visualizza il prezzo IVA inclusa"
   showing_first_n: "Visualizza le prime {{n}}"
   sign_up: "Registrati"
   site_name: "Nome sito"
   site_url: "URL"
-  sku: SKU # Stock Keeping Unit
+  sku: "Cod." # Stock Keeping Unit
   smtp: SMTP
   smtp_authentication_type: Tipo di autenticazione SMTP
   smtp_domain: Dominio SMTP
@@ -854,9 +863,9 @@ it:
   start: a partire da
   start_date: Valido da
   state: stato
-  state_based: "Basato su una regione"
-  state_setting_description: "Dare l'elenco delle Regioni di ogni paese."
-  states: Regioni
+  state_based: "Basato su una provincia"
+  state_setting_description: "Dare l'elenco delle Provincie di ogni paese."
+  states: Provincie
   status: Stato
   stop: Fine
   store: Salva
@@ -877,8 +886,8 @@ it:
   tax_type: "Tipo Tasse"
   taxon: Tassonomia
   taxon_edit: modifica la Tassonomia
-  taxonomies: Tassonomie
-  taxonomies_setting_description: "Crea e modifica Tassonomie"
+  taxonomies: Tassonomia
+  taxonomies_setting_description: "Crea e modifica Tassonomia"
   taxonomy_edit: "Modifica la tassonomia"
   taxonomy_tree_error: "La modifica richiesta non è stata accettata è stato mantenuto il suo stato, per favore riprova."
   taxonomy_tree_instruction: "Fare clic destro per accedere al menu per l'aggiunta, l'eliminazione o l'ordinamento di un figlio.."
@@ -912,7 +921,7 @@ it:
   update_password: "Aggiorna la mia password e login"
   updated_successfully: "Aggiornato con successo"
   updating: In aggiornamento
-  usage_limit: Limite d'uso
+  usage_limit: "Limite d'uso"
   use_as_shipping_address: usa indirizzo di spedizione
   use_billing_address: usa indirizzo di Fatturazione
   use_different_shipping_address: "Altro indirizzo di consegna"
@@ -937,7 +946,7 @@ it:
   weight: Peso
   welcome_to_sample_store: "Benvenuti nello store d'esempio"
   what_is_a_cvv: "Cos'è il (CCC) Codice Carta di credito?"
-  what_is_this: Cos'è?
+  what_is_this: "Cos'è?"
   whats_this: "Che cos'è?"
   width: Larghezza
   year: "Anno"
@@ -946,5 +955,5 @@ it:
   zip: CAP
   zone: "Zona"
   zone_based: "Zone Based"
-  zone_setting_description: "Elenco di paesi, regioni utilizzati nei diversi calcoli."
+  zone_setting_description: "Elenco di paesi, provincie utilizzati nei diversi calcoli."
   zones: "Zone"
