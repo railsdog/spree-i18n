@@ -30,7 +30,7 @@ it:
         last_name: "Cognome"
         last_name_begins_with: "Il Cognome inizia con"
         phone: 'Telefono'
-        state: "Stato"
+        state: "Provincia"
         zipcode: "CAP"
       checkout:
         bill_address:
@@ -47,7 +47,7 @@ it:
           firstname: "Nome"
           lastname: "Cognome"
           phone: "Telefono"
-          state: "Stato"
+          state: "Provincia"
           zipcode: "CAP"
       country:
         iso: 'ISO'
@@ -185,7 +185,7 @@ it:
         other: "Consegna Categorie"
       state:
         one: Provincia
-        other: Provincie
+        other: Province
       tax_category:
         one: "Categoria delle tasse"
         other: "Categorie delle tasse"
@@ -197,10 +197,10 @@ it:
         other: Tassi
       taxonomy:
         one: Tassonomia
-        other: Tassomie
+        other: Tassonomia
       user:
         one: Utente
-        other: Utentes
+        other: Utenti
       variant:
         one: Versione
         other: Versioni
@@ -214,7 +214,7 @@ it:
   add_option_types: "Aggiungi opzioni"
   add_option_value: "Aggiungi Valore Opzionale"
   add_product: "Aggiungi Prodotto"
-  add_product_properties: ""
+  add_product_properties: "Aggiungi Proprietà"
   add_scope: "Aggiungere un campo di applicazione"
   add_state: "Aggiungi Provincia"
   add_to_cart: "Aggiungi al Carrello"
@@ -264,13 +264,13 @@ it:
   both: Both
   by_day: "per giorno"
   calculator: Calcolatore
-  calculator_settings_warning: "Se si cambia il tipo di computer, è necessario prima registrarsi prima di poter modificare le impostazioni del computer. "
-  cancel: cancelare
+  calculator_settings_warning: "prima di cambia il tipo di calcolatore, è necessario salvare. "
+  cancel: annullare
   cancel_my_account: Cancella il mio account
   cancel_my_account_description: "Non sei felice della scelta fatta?"
   canceled: Annullato
   cannot_create_returns: "Non è possibile tornare indietro fino all'invio dell'ordine."
-  cannot_destory_line_item_as_inventory_units_have_shipped: "Non posso eliminarel'oggetto poichè qualche unità è in fase di spedizione."
+  cannot_destory_line_item_as_inventory_units_have_shipped: "Non posso eliminare l'oggetto poichè qualche unità è in fase di spedizione."
   capture: accettare
   card_code: "Codice della carta"
   card_details: "Dettagli Carta"
@@ -299,7 +299,7 @@ it:
   code: "Codice"
   combine: "Combina"
   complete: "completa"
-  complete_list: "Lista di Completamento"
+  complete_list: "Lista delle Configurazioni"
   configuration: "Configurazione"
   configuration_options: "Optioni di Configurazione"
   configurations: "Configurazioni"
@@ -333,6 +333,7 @@ it:
   creditcard: "Carta di credito"
   creditcards: "Carte di credito"
   credits: "Credito"
+  currency_code: "Codice di valuta"
   current: "stato"
   customer: "Cliente"
   customer_details: "Dettagli Cliente"
@@ -351,6 +352,7 @@ it:
   edit: "Modifica"
   editing_billing_integration: "Modifica il sistema di Fatturazione"
   editing_category: "Modifica la categoria"
+  editing_coupon: "Modifica Promozione"
   editing_option_type: "Modifica il tipo di opzione"
   editing_option_types: "Modifica i tipi di opzione"
   editing_payment_method: "Modifica il metodo di pagamento"
@@ -360,6 +362,7 @@ it:
   editing_prototype: "Modifica i Prototipi"
   editing_shipping_category: "Modifica le Categorie di spedizione"
   editing_shipping_method: "Modifica di Metodi di spedizione"
+  editing_shipping_rate: "Modifica Costi di spedizione"
   editing_state: "Modifica lo Stato"
   editing_tax_category: "Modifica le Categorie "
   editing_tax_rate: "Modifica IVA"
@@ -464,6 +467,7 @@ it:
   loading: Caricamento
   locale_changed: "Cambio località"
   log_in: Login
+  login: Login
   logged_in_as: "Registrato come"
   logged_in_succesfully: "Adesso sei connesso"
   logged_out: "Effettato il logout"
@@ -497,6 +501,7 @@ it:
   new_billing_integration: "Nuova integrazione alla fatturazione"
   new_category: "Nuova categoria"
   new_customer: "Nuovo Cliente"
+  new_coupon: "Nuova Promozione"
   new_image: "Nuova immagine"
   new_option_type: "Nuova tipo di opzione"
   new_option_value: "Nuovo valore dell'opzione"
@@ -512,6 +517,7 @@ it:
   new_shipment: "Nuova spedizione"
   new_shipping_category: "Nuova Categoria di acquisto"
   new_shipping_method: "Nuovo Metodo di acquisto"
+  new_shipping_rate: "Nuovo costo di spedizione"
   new_state: "Nuova Provincia"
   new_tax_category: "Nuovo categoria di tassazione"
   new_tax_rate: "Nuova tassazione"
@@ -835,6 +841,7 @@ it:
   show_out_of_stock_products: "Guarda i prodotti terminati"
   show_price_inc_vat: "Visualizza il prezzo IVA inclusa"
   showing_first_n: "Visualizza le prime {{n}}"
+  signature: "firma"
   sign_up: "Registrati"
   site_name: "Nome sito"
   site_url: "URL"
@@ -864,8 +871,8 @@ it:
   start_date: Valido da
   state: stato
   state_based: "Basato su una provincia"
-  state_setting_description: "Dare l'elenco delle Provincie di ogni paese."
-  states: Provincie
+  state_setting_description: "Dare l'elenco delle Province di ogni paese."
+  states: Province
   status: Stato
   stop: Fine
   store: Salva
@@ -955,5 +962,5 @@ it:
   zip: CAP
   zone: "Zona"
   zone_based: "Zone Based"
-  zone_setting_description: "Elenco di paesi, provincie utilizzati nei diversi calcoli."
+  zone_setting_description: "Elenco di paesi, province utilizzati nei diversi calcoli."
   zones: "Zone"
