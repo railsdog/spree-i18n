@@ -230,7 +230,7 @@ it:
   allow_backorders: "Lasciare fuori stock"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: "Consentire l'uso di SSL durante le modalità di sviluppo e test"
   allow_ssl_to_be_used_when_in_production_mode: "Consentire l'uso di SSL durante la modalità di Produzione"
-  allowed_ssl_in_production_mode: "SSL può {{not}} essere utilizzato in produzione"
+  allowed_ssl_in_production_mode: "SSL può %{not} essere utilizzato in produzione"
   already_registered: "Sei già iscritto?"
   alt_text: Testo Alternativo
   alternative_phone: Telefono Alternativo
@@ -254,7 +254,7 @@ it:
   back_end: Back End
   back_to_store: "Torna allo shop"
   backordered: Inevasi
-  backordering_is_allowed: "Inevasi {{not}} Ammessi"
+  backordering_is_allowed: "Inevasi %{not} Ammessi"
   balance_due: "Saldo scaduto"
   best_selling_products: "Prodotti più venduti"
   best_selling_taxons: "Tassi più frequenti"
@@ -312,7 +312,7 @@ it:
   copy_all_mails_to: "Invia una copia della mail ai seguenti indirizzi"
   cost_price: "Costo"
   count: "Count"
-  count_of_reduced_by: "completa per '{{name}}' riduci per {{count}}"
+  count_of_reduced_by: "completa per '%{name}' riduci per %{count}"
   country: Paese
   country_based: "sulla base di un paese"
   coupon: Promozione
@@ -569,7 +569,7 @@ it:
   order_processed_but_following_items_are_out_of_stock: "Il tuo ordine è stato processato, ma i seguenti Prodotti sono esauriti"
   order_processed_successfully: "L'ordine è stato terminato con successo"
   order_summary: "Riepilogo dell'Ordine"
-  order_sure_want_to: "Sei sicuro vuoi {{event}} questo ordine?"
+  order_sure_want_to: "Sei sicuro vuoi %{event} questo ordine?"
   order_total: Totale
   order_total_message: "L'importo addebitato sulla tua carta di credito sarà"
   order_updated: "Ordine Aggiornato"
@@ -609,7 +609,7 @@ it:
   preview: "Anteprima"
   previous: "Indietro"
   price: "Prezzo"
-  price_with_vat_included: "{{price}} (inc. IVA)"
+  price_with_vat_included: "%{price} (inc. IVA)"
   problem_authorizing_card: "Problema di autorizzazione con la carta di credito"
   problem_capturing_card: "Non posso usare la tua carta di credito"
   problems_processing_order: "il Suo ordine non è stato elaborato"
@@ -739,7 +739,7 @@ it:
         name: "Con proprietà e valore"
         sentence: con proprietà <em>%s</em> e valore <em>%s</em>
   products: Prodotti
-  products_with_zero_inventory_display: "I prodotti esauriti{{not}} sono visualizzati"
+  products_with_zero_inventory_display: "I prodotti esauriti%{not} sono visualizzati"
   properties: "Proprietà"
   property: "Proprietà"
   prototype: Prototipo
@@ -794,7 +794,7 @@ it:
   scope: Campo
   scopes: Campi
   search: Cerca
-  search_results: "Cerca risultati per '{{keywords}}'"
+  search_results: "Cerca risultati per '%{keywords}'"
   searching: Cercando
   secure_connection_type: Connessione di tipo Sicuro
   secure_creditcard: Carta di credito Sicura
@@ -831,7 +831,7 @@ it:
   shipping_rates: "costi di spedizione"
   shipping_rates_description: "Gestire i costi di spedizione"
   shipping_total: "Totale costi di consegna"
-  shop_by_taxonomy: "Ordina per {{taxonomy}}"
+  shop_by_taxonomy: "Ordina per %{taxonomy}"
   shopping_cart: Carrello
   show: Guarda
   show_active: "Guarda attivi"
@@ -840,7 +840,7 @@ it:
   show_only_complete_orders: "Filtra gli ordini completati"
   show_out_of_stock_products: "Guarda i prodotti terminati"
   show_price_inc_vat: "Visualizza il prezzo IVA inclusa"
-  showing_first_n: "Visualizza le prime {{n}}"
+  showing_first_n: "Visualizza le prime %{n}"
   signature: "firma"
   sign_up: "Registrati"
   site_name: "Nome sito"
